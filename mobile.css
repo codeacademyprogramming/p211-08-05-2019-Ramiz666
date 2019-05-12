@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+#starter {
+    background-image: url("pen/003.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text  {
+    text-align: center;
+    padding-top: 200px;
+}
+.text h1 {
+    font-size: 80px;
+}
+.text p {
+    font-size: 30px;
+}
+.button{
+    width: 180px;
+    height: 65px;
+    margin-top: 30px;
+    background-color: #1d809f;
+    border-color: #1d809f;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.button p{
+    font-size: 17px;
+    color: white;
+    
+}
+#center {
+    width: 100%;
+    height: 250px;
+}
+.yazi {
+    text-align: center;
+    margin-top: 150px;
+}
+.yazi h2 {
+    font-size: 35px;
+}
+.yazi p{
+    font-size: 20px;
+    color: rgb(68, 67, 67);
+}
+.button-two {
+
+    width: 180px;
+    height: 65px;
+    margin-top: 30px;
+    background-color: rgb(43, 42, 42);
+    border-color: rgb(43, 42, 42);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+.button-two p{
+    color: white;
+}
+#services {
+    background-color: #1d809f;
+    width: 100%;
+    height: 600px;
+}
+.center-two {
+    text-align: center;
+    padding: 120px;
+}
+.center-two strong{
+    font-size: 20px;
+    color: rgb(199, 199, 7);
+}
+.center-two h1{
+    font-size: 50px;
+    color: white;
+}
+.row {
+    display: flex;
+    font-size: 40px;
+    justify-content: space-between;
+    box-sizing: border-box;
+    text-align: center;
+
+
+}
+.col i {
+    background-color: #fff;
+    color: #1d809f;
+    height: 7rem;
+    width: 7rem;
+    display: block;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    margin-left: 60px;
+    margin-bottom: 1rem;
+    border-radius: 50%;
+    
+ 
+    
+}
+.col h3 strong {color: white;
+    padding-top: 20px;
+    font-size: 1.5rem;
+    box-sizing: border-box;
+    line-height: 1.2;
+    display: block;
+
+}
+.col p {
+margin-top: 20px;
+    font-size: 18px;
+    color: antiquewhite;
+   
+}
+
+#download {
+    background-image: url("pen/portfolio.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.wekil{
+    text-align: center;
+    padding-top: 25%;
+    font-size: 40px;
+
+}
+.center-two h2{
+    font-size: 35px;
+}
+.father{
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    position: relative;
+   
+
+
+
+
+}
+.pro{
+    background-image: url("pen/portfolio1.jpg");
+    
+    width: 50%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+
+}
+.pro-two{
+    background-image: url("pen/portfolio2.jpg");
+   
+    width: 50%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.pro-three{
+    background-image: url("pen/portfolio3.jpg");
+    
+    width: 50%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.pro-four{
+    background-image: url("pen/portfolio.jpg");
+    width: 50%;
+    height: 320px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.father h5 {
+    font-size: 20px;
+    margin-top:  200px;
+    margin-left: 75px;
+    color: white;
+}
+.father p{
+    font-size: 20px;
+    margin-top:  10px;
+    margin-left: 75px;
+    color: white;
+}
+.pro:hover  {
+    opacity: 1;
+}
+
+.buttons{
+    display: block;
+background-color: #1d809f;
+width: 100%;
+height: 400px;
+    text-align: center;
+    justify-content: center;
+
+}
+.buttons h2 {
+
+    padding-top: 150px;
+}
+.Ali {
+    color: black;
+    width: 180px;
+    height: 65px;
+    margin-top: 30px;
+    background-color: white;
+    border-color: rgb(43, 42, 42);
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
+/* RESPONSive ipad*/
+@media screen and (max-width:768px) {
+
+#starter {
+height: 55vh;
+
+}
+#download {
+
+    height: 55vh;
+}
+.pro{
+    width: 100%;
+    margin: 10px;
+
+}
+.pro-two {
+    width: 100%;
+    margin: 10px;
+
+
+}
+.pro-three{
+
+    width: 100%;
+    margin: 10px;
+
+}
+.pro-four{
+
+    width: 100%;
+    margin: 10px;
+
+}
+
+    #services {
+height: 950px;
+
+
+    }
+.row {
+    flex-wrap: wrap;
+}
+
+.col  {
+width: 45%;
+padding-bottom: 30px;
+
+
+}
+
+
+}
+/* ipad end */
+@media screen and (max-width:768px){
+
+#starter {
+height: 80vh;
+
+}
+#center {
+
+height: 400px;
+
+}
+.text h1 {
+font-size: 40px;
+
+}
+.text p {
+
+font-size: 20px;
+
+
+}
+.button{
+width: 125px;
+height: 35px;
+
+}
+.button p{
+font-size: 10px;
+
+
+}
+.button-two {
+
+    width: 125px;
+    height: 35px;
+}
+.container{
+width: 60%;
+
+}
+.yazi h2{
+    font-size: 22px;
+}
+.yazi p {
+    font-size: 14px;
+}
+
+
+
+}
